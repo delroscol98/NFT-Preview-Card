@@ -29,10 +29,17 @@ body {
 /*CARD -- MOBILE*/
 .card {
   width: calc(327 / 375 * 100%);
+  max-width: 35rem;
   margin: 6.2rem auto;
   padding: 2.4rem;
   border: 1.5rem;
   background: var(--dark-blue-2);
+}
+
+@media screen and (min-width: 48em) {
+  .card {
+    margin: 15.2rem auto;
+  }
 }
 
 .card__image {
