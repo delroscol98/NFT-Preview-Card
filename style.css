@@ -80,6 +80,8 @@ body {
 }
 
 .card__divider {
+  border-color: var(--dark-blue-3);
+  margin: 1.6rem;
 }
 
 .card__footer {
