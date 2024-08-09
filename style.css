@@ -1,0 +1,26 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue-1: hsl(217, 54%, 11%);
+  --dark-blue-2: hsl(216, 50%, 16%);
+  --dark-blue-3: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--dark-blue-1);
+}
