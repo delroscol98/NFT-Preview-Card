@@ -1,3 +1,4 @@
+/*BOILERPLATE*/
 :root {
   --soft-blue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
@@ -23,4 +24,46 @@ html {
 body {
   box-sizing: border-box;
   background-color: var(--dark-blue-1);
+}
+
+/*CARD -- MOBILE*/
+.card {
+  width: calc(327 / 375 * 100%);
+  margin: auto;
+  padding: 2.4rem;
+  border: 1.5rem;
+  background: var(--dark-blue-2);
+}
+
+.card__image {
+}
+
+.card__heading {
+}
+
+.card__body {
+}
+
+.card__details {
+}
+
+.card__details--child {
+}
+
+.card__details--ethereum {
+}
+
+.card__details--clock {
+}
+
+.card__divider {
+}
+
+.card__footer {
+}
+
+.card__footer--image {
+}
+
+.card__footer--text {
 }
