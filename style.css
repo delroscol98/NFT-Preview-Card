@@ -1,7 +1,7 @@
 /*BOILERPLATE*/
 :root {
   --soft-blue: hsl(215, 51%, 70%);
-  --cyan: hsl(178, 100%, 50%);
+  --cyan: rgb(0, 255, 247);
   --dark-blue-1: hsl(217, 54%, 11%);
   --dark-blue-2: hsl(216, 50%, 16%);
   --dark-blue-3: hsl(215, 32%, 27%);
@@ -43,8 +43,34 @@ body {
 }
 
 .card__image {
-  width: 100%;
+  background: url("./images/image-equilibrium.jpg");
+  background-size: cover;
   border-radius: 0.8rem;
+  height: 27.8rem;
+  display: grid;
+  place-content: center;
+  transition: all 0.2s;
+}
+
+@media screen and (min-width: 48em) {
+  .card__image {
+    height: 30.2rem;
+  }
+}
+
+.card__image--view {
+  opacity: 0;
+}
+
+.card__image:hover {
+  cursor: pointer;
+  background: linear-gradient(rgba(0, 255, 247, 0.5), rgba(0, 255, 247, 0.5)),
+    url("./images/image-equilibrium.jpg");
+  background-size: cover;
+}
+
+.card__image:hover > .card__image--view {
+  opacity: 1;
 }
 
 .card__text {
@@ -58,6 +84,11 @@ body {
   color: var(--white);
   font-size: 2.2rem;
   font-weight: 600;
+}
+
+.card__text--heading:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
 
 .card__text--body {
@@ -108,4 +139,9 @@ body {
 
 .card__footer--text > span {
   color: var(--white);
+}
+
+.card__footer--text > span:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
