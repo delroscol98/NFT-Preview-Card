@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/delroscol98/NFT-Preview-Card)
+- Solution URL: [Github](https://github.com/delroscol98/NFT-Preview-Card)
 - Live Site URL: [Github Pages](https://delroscol98.github.io/NFT-Preview-Card/)
 
 ## My process
